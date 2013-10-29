@@ -3,21 +3,21 @@ mkdir -p ~/.vim
 
 mkdir -p ~/.vim/.backup
 mkdir -p ~/.vim/.swap
-mkdir -p ~/.vim/.undo
 mkdir -p ~/.vim/bundle
 
 echo "Downloading vimfiles of zztztt from Github"
-git clone https://github.com/ditsing/vimfiles.git ~/.vim/ditsing
-cp ~/.vim/ditsing/vimrc ~/.vimrc
+git clone git@github.com:zztztt/vim-config.git ~/.vim/zztztt-config
+cp ~/.vim/zztztt-config/vimrc ~/.vimrc
 
-echo "Installing plugins"
+echo "Installing vundle,use vundle download plugins"
 git clone https://github.com/gmarik/vundle.git
-vim -u ~/.vim/ditsing/bundles.vim +BundleInstall +qall
+vim -u ~/.vim/zztztt-config/bundles.vim +BundleInstall +qall
 
 echo "Installing Airline fonts"
+#you should choose one font, or your airline does not look 
 git clone https://github.com/Lokaltog/powerline-fonts.git ~/.vim/powerline-fonts
 mkdir -p ~/.fonts
-cp powerline-fonts/UbuntuMono/*.ttf ~/.fonts
+cp -r powerline-fonts/*.ttf ~/.fonts
 
 echo "Copy YCM general configuration files."
 cp ~/.vim/.ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py

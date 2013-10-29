@@ -1,5 +1,3 @@
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -15,21 +13,18 @@ Bundle 'bling/vim-airline'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'SirVer/ultisnips'
 Bundle 'kien/ctrlp.vim'
-" My Bundles here:
-"
-" original repos on github
-"Bundle 'Lokaltog/vim-easymotion'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-"Bundle 'tpope/vim-rails.git'
-" vim-scripts repos
-"Bundle 'L9'
-"Bundle 'FuzzyFinder'
-" non github repos
-"Bundle 'https://github.com/Valloric/YouCompleteMe.git'
-"Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'https://github.com/vim-scripts/a.vim.git'
 Bundle 'https://github.com/vim-scripts/grep.vim'
-" git repos on your local machine (ie. when working on your own plugin)
+" My Bundles here:
+"
+"1)original repos on github
+"Bundle 'Lokaltog/vim-easymotion'
+"2)vim-scripts repos
+"Bundle 'L9'
+"Bundle 'FuzzyFinder'
+"3)non github repos
+"Bundle 'git://git.wincent.com/command-t.git'
+"4)git repos on your local machine (ie. when working on your own plugin)
 "Bundle 'file:///Users/gmarik/path/to/plugin'
 " ...
 
@@ -43,4 +38,3 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
