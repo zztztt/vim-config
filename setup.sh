@@ -15,7 +15,7 @@ download()
 	git clone git@github.com:zztztt/vim-config.git $SOURCEDIR
 	#install vundle
   echo "==> install vundle..."
-  git clone https://github.com/gmarik/vundle.git $BUNDLEDIR
+  git clone https://github.com/gmarik/Vundle.vim.git $BUNDLEDIR/Vundle.vim
 	#install the plugins
   echo "==> install vundle plugins..."
   cp $SOURCEDIR/bundle.vim $CONFIGDIR/bundle.vim
