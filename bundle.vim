@@ -9,12 +9,13 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/nerdtree'
 Bundle 'bling/vim-airline'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'SirVer/ultisnips'
 Bundle 'kien/ctrlp.vim'
 Bundle 'https://github.com/vim-scripts/a.vim.git'
 Bundle 'https://github.com/vim-scripts/grep.vim'
+Bundle 'git@github.com:jdevera/vim-stl-syntax.git'
 " My Bundles here:
 "
 "1)original repos on github
