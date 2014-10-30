@@ -82,18 +82,18 @@ hi Cursorcolumn cterm=NONE ctermbg=black
 "nnoremap <C-]> :YcmCompleter GoToDefinitionElseDeclaration<CR><CR>
 
 "airline
-if !has("gui_running")
-  let g:airline_theme="powerlineish"
-endif
-let g:airline_left_sep = ""
-let g:airline_right_sep = ""
-let g:airline_left_alt_sep = ">"
-let g:airline_right_alt_sep = "<"
-let g:airline_symbols#linenr = 'L/N'
-let g:airline#extensions#branch#symbol = ''
-let g:airline#extensions#readonly#symbol = 'R'
-let g:airline_linecolumn_prefix = 'L/N'
-let g:airline#extensions#branch#enabled = 1
+"if !has("gui_running")
+"  let g:airline_theme="powerlineish"
+"endif
+"let g:airline_left_sep = ""
+"let g:airline_right_sep = ""
+"let g:airline_left_alt_sep = ">"
+"let g:airline_right_alt_sep = "<"
+"let g:airline_symbols#linenr = 'L/N'
+"let g:airline#extensions#branch#symbol = ''
+"let g:airline#extensions#readonly#symbol = 'R'
+"let g:airline_linecolumn_prefix = 'L/N'
+"let g:airline#extensions#branch#enabled = 1
 
 highlight colorcolumn ctermbg=darkgray guibg=darkgray
 "when length >= 80, backgroud will become red
