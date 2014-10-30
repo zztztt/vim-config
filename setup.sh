@@ -29,7 +29,7 @@ do
 	
 	case $input in
 		Y|y)
-			$flag=true
+			flag=true
 			download
 			;;
 		N|n)
@@ -37,13 +37,13 @@ do
 		*)
 			;;
 	esac
-	if flag
+	if $flag
 	then
 		break
 	fi
 done
 
-echi "==> Copy $SOURCEDIR/vimrc ~/.vimrc"
+echo "==> Copy $SOURCEDIR/vimrc ~/.vimrc"
 cp $SOURCEDIR/vimrc ~/.vimrc
 echo "==> Romove $SOURCEDIR"
 rm -rf $SOURCEDIR
